@@ -6,6 +6,7 @@ DefaultDirName={autopf}\PowerPoint Easy Lyrics
 DefaultGroupName=PowerPoint Easy Lyrics
 OutputDir=output
 OutputBaseFilename=PowerPointEasyLyrics-Installer
+SetupIconFile=..\assets\icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern

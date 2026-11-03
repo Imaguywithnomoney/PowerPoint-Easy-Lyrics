@@ -6,6 +6,11 @@ PowerPoint Easy Lyrics is a desktop application designed to help people who have
 
 ---
 
+> ### ⚠️ IMPORTANT NOTE ON BACKGROUNDS & FORMATTING
+> **You will need to manually add your background after the PowerPoint presentation has been generated.** I apologize for not mentioning this earlier. Once the presentation is created, you can freely modify it to your liking, including changing the fonts, font sizes, text colors, and other formatting options.
+
+---
+
 ## What the App Does
 
 This app allows you to create PowerPoint slides according to your preferences with seamless transitions:
@@ -28,6 +33,7 @@ This app allows you to create PowerPoint slides according to your preferences wi
 | **`app/ai/`** | Lyrics text segmentation parser. |
 | ↳ `app/ai/segmenter.py` | Splits raw lyric text into stanzas and lines deterministically. |
 | ↳ `app/ai/schema.py` | Data structures for lyric stanzas and sections. |
+| **`assets/`** | Application icons and graphics (`icon.ico`, `icon.png`, `header_logo.png`). |
 | **`dist/`** | Contains the compiled standalone Windows executable (`PowerPointEasyLyrics.exe`). |
 | **`build/`** | Contains PyInstaller build specifications (`pyinstaller.spec`). |
 | **`installer/`** | Contains Inno Setup configuration (`PowerPointEasyLyrics.iss`) to compile a Windows installer. |
@@ -81,7 +87,7 @@ python -m app.main
 
 ## Building the Executable (.exe)
 
-If you make modifications to the code and want to recompile the standalone `.exe`:
+If you make modifications to the code and want to recompile the standalone `.exe` with the custom icon:
 ```bash
 pyinstaller build/pyinstaller.spec
 ```
