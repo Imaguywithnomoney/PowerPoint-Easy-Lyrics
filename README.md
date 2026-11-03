@@ -7,7 +7,7 @@ PowerPoint Easy Lyrics is a desktop application designed to help people who have
 ---
 
 > ### ⚠️ IMPORTANT NOTE ON BACKGROUNDS & FORMATTING
-> **You will need to manually add your background after the PowerPoint presentation has been generated.** I apologize for not mentioning this earlier. Once the presentation is created, you can freely modify it to your liking, including changing the fonts, font sizes, text colors, and other formatting options.
+> **You will need to manually add your background after the PowerPoint presentation has been generated.** Once the presentation is created, you can freely modify it to your liking, including changing the fonts, font sizes, text colors, and other formatting options.
 
 ---
 
